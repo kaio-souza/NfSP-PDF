@@ -7,7 +7,7 @@ Lib simples para gerar PDF's das Notas Fiscais (NFs) da Prefeitura do Estado de 
 ``` 
 
 ## getNfHtml
-Para gerar o HTML da nota os parametros são: NUMERO DA NOTA, INSCRIÇÃO MUNICIPAL DO PRESTADOR e CÓDIGO DE VERIFIAÇÃO
+Para gerar o HTML da nota os parametros são: NUMERO DA NOTA, INSCRIÇÃO MUNICIPAL DO PRESTADOR e CÓDIGO DE VERIFICAÇÃO
 ```php
     use NfSPPDF\NfSPPDF;
 
@@ -16,7 +16,7 @@ Para gerar o HTML da nota os parametros são: NUMERO DA NOTA, INSCRIÇÃO MUNICI
 ```
 
 ## getNfPdf
-Para gerar o PDF da nota os parametros são os mesmos: NUMERO DA NOTA, INSCRIÇÃO MUNICIPAL DO PRESTADOR e CÓDIGO DE VERIFIAÇÃO
+Para gerar o PDF da nota os parametros são os mesmos: NUMERO DA NOTA, INSCRIÇÃO MUNICIPAL DO PRESTADOR e CÓDIGO DE VERIFICAÇÃO
 
 ```php
     use NfSPPDF\NfSPPDF;
