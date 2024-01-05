@@ -21,6 +21,6 @@ Para gerar o PDF da nota os parametros são os mesmos: NUMERO DA NOTA, INSCRIÇ�
 ```php
     use NfSPPDF\NfSPPDF;
 
-    $file = NfSPPDF::getNfHtml('0265489', '44545455', 'S2A2D54');
+    $file = NfSPPDF::getNfPdf('0265489', '44545455', 'S2A2D54');
     file_put_contents('/path/to/storage/lala.pdf', $file);
 ```
